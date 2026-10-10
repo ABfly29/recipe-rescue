@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fdf8ee;
+  --color-cream-dark: #f5ecd7;
+  --color-leaf: #2f7d4f;
+  --color-leaf-dark: #1f5c38;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-cream font-sans text-stone-800 antialiased;
+}

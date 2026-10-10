@@ -1,0 +1,2 @@
+# Only needed to run tools.import_dataset on the Excel file (the CSV needs nothing extra)
+openpyxl>=3.1
